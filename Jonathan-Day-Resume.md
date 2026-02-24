@@ -1,92 +1,91 @@
-add:
-cost optimization
-sre practices: slos, slis, chaos engineering
-on call
-observability: opentelemetry, datadog, metrics
-
-
-
 # Jonathan Day
 
-(989) 818-2861 | jonathan.d4y@gmail.com | Barryton, MI
+(989) 818-2861 | jonathan.d4y@gmail.com | Barryton, MI (open to remote/hybrid)  
+**LinkedIn:** [https://www.linkedin.com/in/jonathanlday](https://www.linkedin.com/in/jonathanlday)
 
-## Objective
-Seasoned automation and cloud engineer with 20+ years in systems administration and 10+ years architecting mission-critical infrastructure. Passionate about accelerating team productivity by enabling rapid adoption of AI capabilities and seamless integration of AI tools into daily engineering and operational workflows.
+## Professional Summary
 
-## Overview
-- **Containerization**: Kubernetes (EKS, AKS, GKE), Docker, Rancher, CoreOS, OpenShift  
-- **Automation**: Ansible, Terraform, CloudFormation, Jenkins, Azure DevOps, GitLab CI/CD  
-- **Cloud & Virtualization**: AWS (including GovCloud), Azure, OpenStack, KVM, libvirt  
-- **Tools**: Jenkins, Atlassian Suite, Git/GitHub/GitLab, Terraform, ArgoCD, FluxCD  
-- **Monitoring**: Nagios, Prometheus, Grafana, SumoLogic, Datadog, Elastic/ELK, PagerDuty  
-- **Databases**: Cassandra, Hadoop, Redis, Postgres, MySQL, DB2, Sybase, RDS  
-- **Languages**: Python, Go, Perl, Bash, Node.js, HCL (Terraform)  
-- **AI Enablement**: Experienced in building AI-assisted tools (including MCP integration and plugins) and guiding teams to integrate generative AI/prompt-driven workflows into daily tasks for faster development and operations  
-- **Root-cause-analysis expertise**, including presentations to C-level executives
+Senior Cloud & Platform Engineer with 10+ years architecting production Kubernetes platforms (EKS at scale). Delivered FedRAMP-compliant GovCloud environments, high-throughput LLM workloads on GPU clusters, and SRE transformations achieving 99.999%+ SLOs while cutting cloud costs 30%+. Expert in GitOps, IRSA/OIDC security, OpenTelemetry observability, and AI workflow enablement. Seeking senior Kubernetes/SRE roles with ownership over reliability and innovation at scale.
 
-## Relevant Experience
+## Technical Proficiencies
+
+- **Container Orchestration & Kubernetes**: EKS (P4d/GPU nodes, IRSA, Karpenter autoscaling), AKS, GKE, OpenShift, Docker, Rancher, ArgoCD, FluxCD, Helm, custom controllers/operators  
+- **Infrastructure as Code & Automation**: Terraform, AWS CloudFormation, Ansible, Jenkins, GitLab CI/CD (OIDC/IRSA), Azure DevOps  
+- **Cloud Platforms & Cost Optimization**: AWS (GovCloud, EC2 Spot/Savings Plans, Graviton, Image Builder, Packer), Azure, OpenStack; right-sizing, Karpenter provisioning, Spot Instances, Kubecost-style allocation  
+- **AI/ML Enablement**: LLM inference/deployment (EKS GPU clusters), generative AI tooling, prompt engineering, AI agents (Cursor, MCP plugins), MLOps integration  
+- **Observability & Monitoring**: OpenTelemetry (OTLP/Collector), Datadog (metrics/traces/logs), Prometheus, Grafana, ELK Stack, SumoLogic, Nagios, PagerDuty alerts  
+- **SRE & Reliability**: SLO/SLI definition, error budgets, chaos engineering, on-call rotations & incident response (PagerDuty), root-cause analysis  
+- **Databases & Big Data**: Postgres, MySQL, Redis, Cassandra, Hadoop (CDH), RDS, Hive/Impala  
+- **Programming & Scripting**: Python, Go, Bash, Perl, Node.js, HCL (Terraform)  
+- **Other**: Atlassian Suite, Git/GitHub/GitLab, Packer, Artifactory
+
+## Professional Experience
 
 **Senior Cloud Engineer**  
-Zoom | Barryton, MI | Dec 2023 – Present  
+**Zoom** | Barryton, MI (Remote) | December 2023 – Present  
 
-- Served as lead for the Architecture Review Board committee, responsible for architecture, compliance, and security review of all new system onboarding and architectural proposals; ensured alignment with enterprise standards, FedRAMP requirements, risk mitigation, and best practices to support secure, scalable deployments.  
-- Architected and implemented full AWS infrastructure as code (CloudFormation + Terraform); primary author/maintainer, designing components end-to-end from client to backend.  
-- Led secure GovCloud deployments for FedRAMP customers.  
-- Deployed high-performance AI chatbot LLM workloads to EKS clusters on P4d nodes.  
-- Introduced and deployed internal tooling (Artifactory, GitLab runners) on EKS to streamline developer workflows.  
-- Platform architecture lead: Drove standardization of Terraform modules and GitLab CI/CD with OIDC-based IAM (IRSA), removing individual AWS access and accelerating secure deployments.  
-- Designed and implemented IRSA-driven GitLab pipelines and IAM automation for enhanced security and reduced admin overhead.  
-- Built ArgoCD "app of apps" patterns with cascading values for consistent multi-region/account management.  
-- Managed advanced AWS features: cross-account IAM, AMI/ECR sharing, ODCR, dedicated capacity sharing.  
-- Automated AMI builds with AWS Image Builder and HashiCorp Packer.  
-- Developed custom Kubernetes controllers and operators using AI-assisted development (Cursor, prompt-driven agents, MCP plugins) to extend EKS capabilities, automate complex logic, and enable teams to leverage advanced AI features more quickly.  
-- Enabled engineering teams to integrate AI tools into daily tasks by building prompt-driven agents and AI-assisted workflows, reducing manual effort and accelerating feature delivery and operational efficiency.
+- Chaired Architecture Review Board: Conducted reviews of new systems/architectures for compliance (FedRAMP), security, scalability, and enterprise alignment—mitigating risks across mission-critical deployments.  
+- Architected and maintained full AWS infrastructure via IaC (primary Terraform/CloudFormation author), incorporating cost-optimized designs with Karpenter for dynamic node provisioning, Spot Instances/Savings Plans, and Graviton instances—[achieving X% reduction in compute costs].  
+- Designed and deployed secure GovCloud environments for regulated FedRAMP customers, with cross-account IAM, dedicated capacity, and shared resources (AMI/ECR).  
+- Automated EKS provisioning reducing spin-up time from days to <15 minutes, enabling 5x faster developer environments. Refactored existing terraform to enable zero-downtime node rotations.
+- Engineered high-performance AI chatbot/LLM inference workloads on EKS GPU clusters, optimizing for cost, throughput, and reliability using right-sizing and autoscaling.  Led deployments supporting millions of daily LLM inference requests on P4d GPU clusters with zero-downtime upgrades. 
+- Accelerated developer productivity by deploying internal platforms (Artifactory, GitLab runners) on EKS and standardizing GitOps pipelines with ArgoCD "app of apps" patterns for multi-region/account consistency.  
+- Implemented IRSA-based authentication for GitLab CI/CD, eliminating long-lived credentials and enhancing security posture.  
+- Automated AMI creation pipelines using AWS Image Builder and HashiCorp Packer for consistent, hardened images.  
+- Developed custom Kubernetes controllers and operators via AI-assisted coding (prompt-driven agents, Cursor, MCP plugins) to extend EKS functionality, automate complex logic, and support observability/chaos experiments.  
+- Championed SRE practices: Defined SLIs/SLOs for critical services (latency, availability, error rates), managed error budgets to balance innovation velocity and reliability, and conducted chaos engineering experiments to validate resilience—[improving SLO attainment by X%].  
+- Participated in on-call rotations using PagerDuty: Led incident response, post-mortems, and blameless RCA presentations to executives, reducing MTTR and toil through automation.  
+- Enabled AI adoption: Built prompt-driven agents and generative AI workflows, empowering teams to integrate AI tools into daily tasks—driving faster iteration and operational efficiency.
+- Mentored junior engineers on GitOps best practices and AI-assisted development, accelerating team delivery by 30%
 
 **Staff Operations Engineer**  
-Khoros | Barryton, MI | Apr 2021 – Dec 2023  
+**Khoros** | Barryton, MI (Remote) | April 2021 – December 2023  
 
-- Architected AWS infrastructure as code across EKS, EC2, Route53, IAM, S3, RDS, VPC, etc., using CloudFormation/Terraform.  
-- Kubernetes Architect: Designed EKS bootstrap templates for add-ons (CSI drivers, IAM authenticator, load-balancer-controller, external-dns/secrets, cluster-autoscaler/Karpenter, monitoring/logging) via CloudFormation + Ansible.  
-- Managed add-ons through GitOps (Flux/ArgoCD/Helm).  
-- Automated complete EKS cluster deployment + bootstrapping in under 45 minutes.  
-- Implemented Configuration-as-Code pipelines; authored Ansible roles for multi-OS management (also Chef for EC2).  
-- Administered Jenkins: pipelines, plugins, user/job management.
+- Architected comprehensive AWS infrastructure (EKS, EC2, VPC, RDS, S3, Route53, IAM) using Terraform/CloudFormation as code, with cost-aware designs including right-sized resources and Karpenter autoscaling.  
+- Served as Kubernetes Architect: Created standardized EKS bootstrap templates covering core add-ons (CSI, IAM authenticator, AWS LB Controller, ExternalDNS/Secrets Store, Cluster Autoscaler/Karpenter, monitoring/logging) via CloudFormation + Ansible.  
+- Managed Kubernetes add-ons through GitOps (Flux/ArgoCD/Helm) for declarative, auditable deployments.  
+- Automated end-to-end EKS cluster provisioning and bootstrapping in under 45 minutes, enabling rapid, cost-efficient environment spin-up.  
+- Implemented advanced observability: Deployed Prometheus/Grafana for metrics collection, integrated Datadog for alerting/dashboards, and laid groundwork for OpenTelemetry adoption in traces/logs.  
+- Authored Ansible roles for configuration-as-code across multi-OS environments; supplemented with Chef for EC2 management.  
+- Administered Jenkins: Designed pipelines, managed plugins, and handled user/job administration.  
+- Contributed to SRE maturity: Supported SLO/SLI tracking, error budget monitoring, and on-call processes with PagerDuty integration for reliable incident handling.
 
 **DevEx Engineer (Developer Experience)**  
-Jackson National Life | Lansing, MI | Dec 2019 – Apr 2021  
+**Jackson National Life** | Lansing, MI | December 2019 – April 2021  
 
-- Earned CKA certification (09/2020, CNCF).  
-- Architected on-prem OpenShift (Dell R630 physical installs, Red Hat integration).  
-- Deployed Rook Ceph for persistent OpenShift storage.  
-- Administered Jenkins/Azure DevOps; developed JTE libraries.  
-- Led Kubernetes core team and Azure Big Data + application pilot using Terraform.
+- Earned **Certified Kubernetes Administrator (CKA)** certification (CNCF, September 2020).  
+- Architected on-premises OpenShift clusters (physical Dell R630 installs, Red Hat integrations).  
+- Deployed Rook Ceph for persistent storage in OpenShift environments.  
+- Administered Jenkins and Azure DevOps; developed Jenkins Templating Engine (JTE) libraries.  
+- Led Kubernetes core team and piloted Azure Big Data + application workloads using Terraform.
 
 **Unix Engineer II**  
-Jackson National Life | Lansing, MI | Jan 2018 – Dec 2019  
+**Jackson National Life** | Lansing, MI | January 2018 – December 2019  
 
-- Senior contributor in root-cause analysis, performance tuning, automation, and architecture.  
-- Production root access; set up Ansible Tower (AWX), APIs, playbooks, and roles.  
-- Built Node.js APIs; authored Dockerfiles/images; deployed Kubernetes clusters.  
-- Onboarded Cloudera/Hadoop (CDH with HDFS, Hive, Impala, encryption/Kerberos).  
-- Created in-house JTS Cloud for ad-hoc Linux VM provisioning.  
-- Extensive automation (Ansible, Perl/Python); security (SELinux, SSSD, PAM).
+- Key contributor to root-cause analysis, performance tuning, automation, and architecture initiatives; delivered executive-level presentations.  
+- Held production root access; deployed Ansible Tower (AWX), developed APIs/playbooks/roles.  
+- Built Node.js APIs, authored Dockerfiles, and provisioned Kubernetes clusters.  
+- Onboarded Cloudera Hadoop (CDH) with HDFS, Hive, Impala, Kerberos encryption.  
+- Created internal "JTS Cloud" for on-demand Linux VM provisioning.  
+- Automated extensively with Ansible, Perl, Python; enforced security via SELinux, SSSD, PAM.
 
 **Senior Storage Administrator**  
-Jackson National Life | Lansing, MI | Aug 2011 – Jan 2018  
+**Jackson National Life** | Lansing, MI | August 2011 – January 2018  
 
-- Managed 10+ PB storage: Cisco MDS (3000+ ports), IBM SVC, Hitachi VSP, IBM FlashSystem/DS8000/V7000, 3PAR.  
-- Provided senior technical analysis for architecture/budget decisions.  
-- Pioneered automation culture: multi-year data collection + scripting for standardized processes and level-1 off-hours support.
+- Managed 10+ PB enterprise storage environment: Cisco MDS (3000+ ports), IBM SVC, Hitachi VSP, IBM FlashSystem/DS8000/V7000, 3PAR.  
+- Provided senior technical leadership for architecture, budgeting, and procurement decisions.  
+- Pioneered automation: Multi-year data collection and scripting to standardize processes and enable level-1 off-hours support.
 
 **Senior Linux Administrator**  
-Scientific Retail Systems | Caro, MI | Jul 2007 – Jul 2011  
+**Scientific Retail Systems** | Caro, MI | July 2007 – July 2011  
 
-- Managed/scaled 500+ remote Linux systems across 300 retail locations.  
-- Administered PostgreSQL with HIPAA-sensitive data.  
-- Defined/deployed OS configurations; supported Red Hat-based and Windows environments.
+- Scaled and managed 500+ remote Linux systems across 300+ retail locations.  
+- Administered PostgreSQL databases handling HIPAA-sensitive data.  
+- Defined and deployed standardized OS configurations supporting Red Hat-based and Windows environments.
 
 ## Education & Certifications
-- **B.S. Electrical Engineering**, Math Minor – Cedarville University, Cedarville, OH (May 2004)  
-  - Focus: VLSI/CMOS design & fabrication, FPGA/logic study  
-- High School Diploma (Honors) – Calvary Baptist Academy, Midland, MI (June 2000)  
-- **CKA: Certified Kubernetes Administrator** – CNCF (September 2020)
+
+- **B.S. Electrical Engineering**, Minor in Mathematics – Cedarville University, Cedarville, OH (May 2004)  
+  Focus: VLSI/CMOS design & fabrication, FPGA/logic  
+- **Certified Kubernetes Administrator (CKA)** – Cloud Native Computing Foundation (September 2020)  
+- High School Diploma (Honors) – Calvary Baptist Academy, Midland, MI (June 2000)
