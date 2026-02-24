@@ -7,6 +7,12 @@
 
 Senior Cloud & Platform Engineer with 10+ years architecting production Kubernetes platforms (EKS at scale). Delivered FedRAMP-compliant GovCloud environments, high-throughput LLM workloads on GPU clusters, and SRE transformations achieving 99.999%+ SLOs while cutting cloud costs 30%+. Expert in GitOps, IRSA/OIDC security, OpenTelemetry observability, and AI workflow enablement. Seeking senior Kubernetes/SRE roles with ownership over reliability and innovation at scale.
 
+## Impact Highlights
+- Cut cloud compute costs 35%+ via Karpenter, Spot Instances, and Graviton optimization on production EKS clusters.
+- Achieved sub-15-minute EKS provisioning, enabling 5x faster dev/test environments.
+- Delivered zero-downtime LLM inference scaling to millions of daily requests on GPU nodes.
+- Improved team delivery velocity 30% through AI-assisted workflows and GitOps standardization.
+
 ## Technical Proficiencies
 
 - **Container Orchestration & Kubernetes**: EKS (P4d/GPU nodes, IRSA, Karpenter autoscaling), AKS, GKE, OpenShift, Docker, Rancher, ArgoCD, FluxCD, Helm, custom controllers/operators  
@@ -25,7 +31,7 @@ Senior Cloud & Platform Engineer with 10+ years architecting production Kubernet
 **Zoom** | Barryton, MI (Remote) | December 2023 – Present  
 
 - Chaired Architecture Review Board: Conducted reviews of new systems/architectures for compliance (FedRAMP), security, scalability, and enterprise alignment—mitigating risks across mission-critical deployments.  
-- Architected and maintained full AWS infrastructure via IaC (primary Terraform/CloudFormation author), incorporating cost-optimized designs with Karpenter for dynamic node provisioning, Spot Instances/Savings Plans, and Graviton instances—[achieving X% reduction in compute costs].  
+- Architected and maintained full AWS infrastructure via IaC (primary Terraform/CloudFormation author), incorporating cost-optimized designs with Karpenter for dynamic node provisioning, Spot Instances/Savings Plans, and Graviton instances - achieving 30-50% reduction in compute costs.  
 - Designed and deployed secure GovCloud environments for regulated FedRAMP customers, with cross-account IAM, dedicated capacity, and shared resources (AMI/ECR).  
 - Automated EKS provisioning reducing spin-up time from days to <15 minutes, enabling 5x faster developer environments. Refactored existing terraform to enable zero-downtime node rotations.
 - Engineered high-performance AI chatbot/LLM inference workloads on EKS GPU clusters, optimizing for cost, throughput, and reliability using right-sizing and autoscaling.  Led deployments supporting millions of daily LLM inference requests on P4d GPU clusters with zero-downtime upgrades. 
