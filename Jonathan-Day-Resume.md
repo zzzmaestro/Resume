@@ -1,3 +1,11 @@
+add:
+cost optimization
+sre practices: slos, slis, chaos engineering
+on call
+observability: opentelemetry, datadog, metrics
+
+
+
 # Jonathan Day
 
 (989) 818-2861 | jonathan.d4y@gmail.com | Barryton, MI
