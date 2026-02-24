@@ -39,7 +39,7 @@ Senior Cloud & Platform Engineer with 10+ years architecting production Kubernet
 - Implemented IRSA-based authentication for GitLab CI/CD, eliminating long-lived credentials and enhancing security posture.  
 - Automated AMI creation pipelines using AWS Image Builder and HashiCorp Packer for consistent, hardened images.  
 - Developed custom Kubernetes controllers and operators via AI-assisted coding (prompt-driven agents, Cursor, MCP plugins) to extend EKS functionality, automate complex logic, and support observability/chaos experiments.  
-- Championed SRE practices: Defined SLIs/SLOs for critical services (latency, availability, error rates), managed error budgets to balance innovation velocity and reliability, and conducted chaos engineering experiments to validate resilience—[improving SLO attainment by X%].  
+- Championed SRE practices: Defined SLIs/SLOs for critical services (latency, availability, error rates), managed error budgets to balance innovation velocity and reliability, and conducted chaos engineering experiments to validate resilience.
 - Participated in on-call rotations using PagerDuty: Led incident response, post-mortems, and blameless RCA presentations to executives, reducing MTTR and toil through automation.  
 - Enabled AI adoption: Built prompt-driven agents and generative AI workflows, empowering teams to integrate AI tools into daily tasks—driving faster iteration and operational efficiency.
 - Mentored junior engineers on GitOps best practices and AI-assisted development, accelerating team delivery by 30%
